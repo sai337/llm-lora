@@ -1,0 +1,3 @@
+# vLLM CPU support exists but on x86 you often build from source.
+# See docs in RUNBOOK.md.
+vllm>=0.8.0
