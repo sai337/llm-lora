@@ -1,0 +1,17 @@
+# Core training (CPU-friendly)
+torch>=2.2.0
+transformers>=4.41.0
+accelerate>=0.30.0
+datasets>=2.20.0
+pyyaml>=6.0.1
+tqdm>=4.66.0
+safetensors>=0.4.0
+huggingface_hub>=0.23.0
+
+# LoRA (CPU works; slower but supported)
+peft>=0.11.0
+
+# UI client (talks to vLLM OpenAI server)
+openai>=1.30.0
+streamlit>=1.36.0
+requests>=2.31.0
